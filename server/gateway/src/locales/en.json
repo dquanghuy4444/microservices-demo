@@ -1,0 +1,17 @@
+{
+    "errors.email.template_not_found": "Template not found",
+    "errors.authentication.login_failure": "Username and password does not match",
+    "errors.authentication.access_token_invalid": "Access Token invalid",
+    "errors.authentication.user_not_register": "User not registered",
+    "errors.authentication.any_error": "The server could not understand the request due to invalid syntax",
+    "errors.user.username_exists": "Username exists",
+    "errors.user.info_exists": "Email/Phone number exists",
+    "errors.user.inactive": "User is inactive. Contact admin to active this account",
+    "errors.user.email_not_verified": "User did not verified email",
+    "errors.user.reset_pass_sent": "An email to reset password has been sent",
+    "errors.user.verification_sent": "A verify email has been sent to this user",
+    "errors.user.not_found": "User does not exists",
+    "errors.user.verified": "This account has already been verified",
+    "errors.user.cant_reset_pass": "Cannot reset password for this user"
+
+}

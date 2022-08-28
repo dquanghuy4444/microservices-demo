@@ -1,0 +1,16 @@
+{
+    "errors.email.template_not_found": "Không tìm thấy mẫu",
+    "errors.authentication.login_failure": "Tài khoản hoặc mật khẩu không chính xác",
+    "errors.authentication.access_token_invalid": "Xác thực không thành công",
+    "errors.authentication.user_not_register": "Tài khoản chưa được đăng ký",
+    "errors.authentication.any_error": "Lỗi không xác định",
+    "errors.user.username_exists": "Tài khoản đã tồn tại",
+    "errors.user.info_exists": "Email hoặc số điện thoại đã tồn tại",
+    "errors.user.email_not_verified": "Tài khoản chưa xác minh Email",
+    "errors.user.inactive": "Tài khoản chưa được kích hoạt. Liên hệ admin để kích hoạt tài khoản",
+    "errors.user.reset_pass_sent": "Email này đã gửi yêu cầu đặt lại mật khẩu",
+	"errors.user.verification_sent": "Mail xác minh tài khoản đã được gửi đi",
+	"errors.user.not_found": "Không tìm thấy tài khoản",
+	"errors.user.verified": "Tài khoản đã được xác minh",
+    "errors.user.cant_reset_pass": "Không thể đặt lại mật khẩu cho người dùng này"
+}
