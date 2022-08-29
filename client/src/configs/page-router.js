@@ -1,0 +1,5 @@
+export const PAGE_ROUTER_DASHBOARD = "/"
+export const PAGE_ROUTER_LOGIN = "/login"
+export const PAGE_ROUTER_REGISTER = "/register"
+export const PAGE_ROUTER_FORGET_PASSWORD = "/forget-password"
+export const PAGE_ROUTER_VERIFY_EMAIL = "/verify-email"

@@ -1,0 +1,16 @@
+:root {
+    --color-blue: #1A61AE;
+    --color-blue--light: #1a61ae;
+    --color-green: #1FC974;
+    --color-grey: #A5A8A9;
+    --color-grey--lightsword: rgba(0, 0, 0, 0.06);
+    --color-grey--light: #E6E8EC;
+    --color-black: #1D2628;
+    --color-red: #ff4047;
+    --color-bg: #EAEAEA;
+
+    --font-size-primary: 16px;
+    --font-size-secondary: 13px;
+
+    --max-width-primary: 1110px;
+}

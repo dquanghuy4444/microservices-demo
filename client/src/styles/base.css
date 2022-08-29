@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        font-size: var(--font-size-secondary);
+    }
+
+    body {
+        min-height: 100vh;
+        min-height: fill-available;
+        min-height: -webkit-fill-available;
+    }
+
+    html {
+        height: fill-available;
+        height: -webkit-fill-available;
+    }
+
+    @media screen(tablet) {
+        html,
+        body {
+            font-size: var(--font-size-primary);
+        }
+    }
+}
+
+@layer components {
+    .component-main-section {
+        @apply max-w-primary tablet:px-[68px] laptop:px-2 desktop:px-0 px-4 mx-auto;
+    }
+
+    .component-full-main-section {
+        @apply tablet:-mx-[68px] -mx-4 laptop:mx-auto;
+    }
+
+    .component-default-fontsize {
+        @apply font-semibold text-[0.78rem] leading-[18px];
+    }
+
+    .component-default-mb-section {
+        @apply mb-12 tablet:mb-[80px];
+    }
+}
+
+@layer utilities {
+    .util-flex-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .util-flex-between {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .util-fit-background {
+        background-color: #ffffff;
+        /* Used if the image is unavailable */
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+    }
+
+    .util-w-fill{
+        width: fill-available;
+    }
+}
